@@ -1,0 +1,92 @@
+.top-bar{
+    margin-top: 20px;
+}
+
+.whatsap{
+    width: 20px;
+    padding-bottom: 7px;
+}
+
+.telf{
+    padding-top: 5px;
+}
+
+.Asistant-icon{
+    width: 40px;
+    padding-top: 7px;
+}
+
+#logo{
+    width: 220px;
+}
+
+.nav-link {
+    font-size: 23px; /* Tamaño de letra deseado */
+    transition: font-size 0.3s; /* Efecto de transición al hacer hover */
+ }
+
+ .telf:hover{
+    color: green;
+    cursor: pointer;
+ }
+ 
+ .nav-link:hover {
+    font-size: 35px; /* Tamaño de letra al hacer hover */
+    
+ }
+
+ #navbarNav li:first-child{
+   
+    margin-left: 3px; 
+  }
+
+ #navbarNav li{
+   
+   margin-left: 60px; 
+ }
+ 
+ 
+ footer ul li{
+    list-style: none;
+    color: grey;
+    
+ }
+
+ footer ul li:hover{
+    list-style: none;
+    color: black;
+    font-size: x-large;
+    cursor: pointer;
+    
+ }
+
+ .card:hover{
+    width: 350px !important;
+ }
+
+ #navbarNav li:hover{
+    font-size: x-large;
+    text-decoration: underline;
+  }
+
+ footer ul li h5{
+    list-style: none;
+    color: darkgray;
+    text-decoration: underline;
+    
+ }
+
+ .wework:hover{
+    cursor:pointer;
+    color:lightseagreen;
+ }
+
+  .carousel-item{
+    
+  }
+
+  .carousel-inner{
+    
+  }
+
+

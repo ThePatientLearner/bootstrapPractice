@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FreedomBank</title>
+    <!-- Enlace para el estilo bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <style>
+        .row {
+            border: 1px solid black;
+        }
+
+        .fila-customizada {
+            background-color: bisque;
+            height: 400px;
+        }
+
+        .fila-customizada .col {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+    <div class="container">
+        <div class="row">
+            <!--sm marca el tamaño dentro de la fila, el maximo por fila son 12  -->
+            <!--sm(para pequeñas pantallas), md(para medianas) , lg(para grandes pantallas)-->
+            <!-- con order-md-2 y order-md-1 puedo cambiar el orden segun el tamaño de la pantalla-->
+            <!-- si tienes espacios usando 4 y 4 y te sobran cuatro: offset-2 , esto pondría espacio en el margen izquierdo del elemento-->
+            <!-- justify-content-center align-items-center gx-5" con esto controlas-->
+            <div class="col-sm-12 ">col 1</div>
+            <div class="col-sm-12 ">col 2</div>
+        
+        </div>
+        <div class="row fila-customizada justify-content-center align-items-center">
+            <div class="col-sm-4">
+                <div class="p-3 border bg-light">col 1</div>
+            </div>
+            <div class="col-sm-4">
+                <div class="p-3 border bg-light">col 2</div>
+            </div>
+            <div class="col"><button type="button" class="btn btn-danger">Primary</button></div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Enlace para script bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
+
+<div class="p-3 mb-2 bg-primary text-white">.bg-primary</div>
+<div class="p-3 mb-2 bg-primary-subtle text-emphasis-primary">.bg-primary-subtle</div>
+<div class="p-3 mb-2 bg-secondary text-white">.bg-secondary</div>
+<div class="p-3 mb-2 bg-secondary-subtle text-emphasis-secondary">.bg-secondary-subtle</div>
+<div class="p-3 mb-2 bg-success text-white">.bg-success</div>
+<div class="p-3 mb-2 bg-success-subtle text-emphasis-success">.bg-success-subtle</div>
+<div class="p-3 mb-2 bg-danger text-white">.bg-danger</div>
+<div class="p-3 mb-2 bg-danger-subtle text-emphasis-danger">.bg-danger-subtle</div>
+<div class="p-3 mb-2 bg-warning text-dark">.bg-warning</div>
+<div class="p-3 mb-2 bg-warning-subtle text-emphasis-warning">.bg-warning-subtle</div>
+<div class="p-3 mb-2 bg-info text-dark">.bg-info</div>
+<div class="p-3 mb-2 bg-info-subtle text-emphasis-info">.bg-info-subtle</div>
+<div class="p-3 mb-2 bg-light text-dark">.bg-light</div>
+<div class="p-3 mb-2 bg-light-subtle text-emphasis-light">.bg-light-subtle</div>
+<div class="p-3 mb-2 bg-dark text-white">.bg-dark</div>
+<div class="p-3 mb-2 bg-dark-subtle text-emphasis-dark">.bg-dark-subtle</div>
+<p class="p-3 mb-2 bg-body-secondary">.bg-body-secondary</p>
+<p class="p-3 mb-2 bg-body-tertiary">.bg-body-tertiary</p>
+
+<div class="p-3 mb-2 bg-body text-body">.bg-body</div>
+<div class="p-3 mb-2 bg-black text-white">.bg-black</div>
+<div class="p-3 mb-2 bg-white text-dark">.bg-white</div>
+<div class="p-3 mb-2 bg-transparent text-body">.bg-transparent</div>
