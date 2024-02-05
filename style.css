@@ -62,6 +62,7 @@
 
  .card:hover{
     width: 350px !important;
+    cursor: pointer;
  }
 
  #navbarNav li:hover{
