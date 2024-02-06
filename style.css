@@ -1,3 +1,14 @@
+/* aqui importo google fonts*/
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap');
+
+  /*y aquí implemento la fuente*/
+  body{
+    font-family: 'Gowun Batang', serif;
+  
+  }
+
 .top-bar{
     margin-top: 20px;
 }
@@ -61,7 +72,7 @@
  }
 
  .card:hover{
-    width: 350px !important;
+    width: 400px !important;
     cursor: pointer;
  }
 
@@ -87,7 +98,10 @@
   }
 
   .carousel-inner{
+    background-image: url(/Img/Carrusell/background-tyyz0gYo1-transformed.png) ;
+    background-size: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    background-position: center; 
     
-  }
+}
 
 
