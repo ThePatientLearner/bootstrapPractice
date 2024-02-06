@@ -6,7 +6,14 @@
   /*y aquí implemento la fuente*/
   body{
     font-family: 'Gowun Batang', serif;
-  
+    background-image: url(./img/landscape-city-building-skyscraper-sky-clouds-1927959-wallhere.com.jpg) ;
+    background-size: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
+    background-position: center; 
+  }
+
+  .container{
+   
+    
   }
 
 .top-bar{
@@ -59,7 +66,7 @@
  
  footer ul li{
     list-style: none;
-    color: grey;
+    
     
  }
 
@@ -90,7 +97,8 @@
 
  .wework:hover{
     cursor:pointer;
-    color:lightseagreen;
+    color:blue;
+    text-decoration: underline;
  }
 
   .carousel-item{
@@ -98,10 +106,7 @@
   }
 
   .carousel-inner{
-    background-image: url(./Img/Carrusell/background-tyyz0gYo1-transformed.png) ;
-    background-size: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
-    background-position: center; 
-    
+   
 }
 
 
