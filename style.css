@@ -98,7 +98,7 @@
   }
 
   .carousel-inner{
-    background-image: url(/Img/Carrusell/background-tyyz0gYo1-transformed.png) ;
+    background-image: url(./Img/Carrusell/background-tyyz0gYo1-transformed.png) ;
     background-size: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
     background-position: center; 
     
