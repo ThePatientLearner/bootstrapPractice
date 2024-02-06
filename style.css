@@ -6,7 +6,7 @@
   /*y aquí implemento la fuente*/
   body{
     font-family: 'Gowun Batang', serif;
-    background-image: url(./img/landscape-city-building-skyscraper-sky-clouds-1927959-wallhere.com.jpg) ;
+    background-image: url(./img/background\ img.jpg) ;
     background-size: cover; /* Ajusta la imagen para cubrir completamente el contenedor */
     background-position: center; 
   }
